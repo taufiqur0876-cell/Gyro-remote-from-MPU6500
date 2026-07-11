@@ -1,0 +1,7 @@
+MPU6500 with ESP32
+VCC with 3.3V
+GND with GND
+SDA with GPIO 22
+SCL with GPIO 21
+BUTTON_1 with GPIO 32
+BUTTON_2 with GPIO 33

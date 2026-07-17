@@ -81,11 +81,16 @@ cd Gyro-remote-from-MPU6500
 
 ### 3. Hardware Interfacing (I2C Default)
 Connect the MPU6500 breakdown board to your MCU using the following pinning topology:
-* **VCC** $ightarrow$ `3.3V`
-* **GND** $ightarrow$ `GND`
-* **SCL** $ightarrow$ `MCU SCL` (e.g., A5 on Arduino Nano / GPIO 22 on ESP32)
-* **SDA** $ightarrow$ `MCU SDA` (e.g., A4 on Arduino Nano / GPIO 21 on ESP32)
-* **INT** $ightarrow$ `MCU External Interrupt Pin` (Optional for FIFO/Data-Ready alerts)
+* **VCC** $
+ightarrow$ `3.3V`
+* **GND** $
+ightarrow$ `GND`
+* **SCL** $
+ightarrow$ `MCU SCL` (e.g., A5 on Arduino Nano / GPIO 22 on ESP32)
+* **SDA** $
+ightarrow$ `MCU SDA` (e.g., A4 on Arduino Nano / GPIO 21 on ESP32)
+* **INT** $
+ightarrow$ `MCU External Interrupt Pin` (Optional for FIFO/Data-Ready alerts)
 
 ### 4. Compilation and Flashing
 * **PlatformIO:** Click the **Upload** checkmark button at the bottom status bar.
